@@ -1,8 +1,8 @@
-# EV Charging Management System
+# EV Charging Management System (Web Application)
 
 A comprehensive Electric Vehicle (EV) charging management system built with Laravel 12, featuring a complete web interface and RESTful API architecture.
 
-## 🚗 Features
+## Features
 
 ### Web Application
 
@@ -22,7 +22,7 @@ A comprehensive Electric Vehicle (EV) charging management system built with Lara
 -   **Admin Dashboard** - Analytics, user management, and system monitoring
 -   **Notifications** - Real-time notification system with multiple delivery methods
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 -   **Backend**: Laravel 12, PHP 8.2+
 -   **Frontend**: TailwindCSS 4.0, Alpine.js
@@ -30,22 +30,13 @@ A comprehensive Electric Vehicle (EV) charging management system built with Lara
 -   **Authentication**: Laravel Sanctum (API) + Session-based (Web)
 -   **APIs**: RESTful architecture with comprehensive endpoints
 
-## 📋 Requirements
+##  Requirements
 
 -   PHP 8.2 or higher
 -   Composer
 -   Node.js & NPM
 -   MySQL 8.0+
 -   Laravel 12
-
-## 🚀 Installation
-
-1. **Clone the repository**
-
-    ```bash
-    git clone <https://github.com/tecnodeveloper/evc.git>
-    cd evc
-    ```
 
 2. **Install PHP dependencies**
 
@@ -94,7 +85,7 @@ A comprehensive Electric Vehicle (EV) charging management system built with Lara
     php artisan serve
     ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ├── app/
@@ -122,7 +113,7 @@ A comprehensive Electric Vehicle (EV) charging management system built with Lara
 │   └── api.php              # API routes
 ```
 
-## 🗄️ Database Schema
+##  Database Schema
 
 ### Key Tables
 
@@ -142,14 +133,14 @@ A comprehensive Electric Vehicle (EV) charging management system built with Lara
 -   Station → Bookings (One to Many)
 -   Booking → Payment (One to One)
 
-## 🔒 Authentication
+##  Authentication
 
 The system supports dual authentication:
 
 -   **Web Application**: Session-based authentication
 -   **API**: Laravel Sanctum token-based authentication
 
-## 🚀 Usage Examples
+##  Usage Examples
 
 ### Complete Booking Flow
 
@@ -168,7 +159,7 @@ The system supports dual authentication:
 4. **Monitor bookings**
 5. **Generate reports**
 
-## 📊 Response Format
+##  Response Format
 
 All API responses follow a consistent format:
 
@@ -180,7 +171,7 @@ All API responses follow a consistent format:
 -   **Location-based Search** - Efficient distance calculations for stations
 -   **Background Processing** - Async notification delivery
 
-## 🛡️ Security Features
+##  Security Features
 
 -   **Input Validation** - Comprehensive request validation
 -   **Rate Limiting** - API rate limiting protection
@@ -188,7 +179,7 @@ All API responses follow a consistent format:
 -   **Token Management** - Secure API token handling
 -   **Admin Authorization** - Role-based access control
 
-## 🐛 Error Handling
+##  Error Handling
 
 The API includes comprehensive error handling with appropriate HTTP status codes:
 
@@ -201,7 +192,7 @@ The API includes comprehensive error handling with appropriate HTTP status codes
 -   `422` - Validation Error
 -   `500` - Server Error
 
-## 📝 Development
+##  Development
 
 ### Testing
 
@@ -220,19 +211,6 @@ php artisan test
 ```bash
 php artisan db:seed
 ```
-
-## 📞 Support
-
-For issues, feature requests, or questions:
-
--   Create an issue in the repository
--   Contact the development team
--   Check the API documentation for detailed endpoint information
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
 ---
 
-**Built with ❤️ for the future of electric mobility** 🚗⚡
+**Built with ❤️ for the future of electric mobility**
